@@ -74,7 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				ACF6255C24FC0F0B000B1A23 /* MLHelper */,
+				ACF6255C24FC0F0B000B1A23 /* Sources */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for MLHelper */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -142,15 +142,14 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		ACF6255C24FC0F0B000B1A23 /* MLHelper */ = {
+		ACF6255C24FC0F0B000B1A23 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				ACF6256224FC0F2F000B1A23 /* Sources */,
 				ACF6255D24FC0F0B000B1A23 /* Classes */,
 				ACF6256024FC0F0B000B1A23 /* Assets */,
 			);
-			name = MLHelper;
-			path = ../MLHelper;
+			name = Sources;
+			path = ../Sources;
 			sourceTree = "<group>";
 		};
 		ACF6255D24FC0F0B000B1A23 /* Classes */ = {
@@ -167,13 +166,6 @@
 				ACF6256124FC0F0B000B1A23 /* .gitkeep */,
 			);
 			path = Assets;
-			sourceTree = "<group>";
-		};
-		ACF6256224FC0F2F000B1A23 /* Sources */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Sources;
 			sourceTree = "<group>";
 		};
 		D5E1372192447EA9F759E395 /* Pods */ = {
