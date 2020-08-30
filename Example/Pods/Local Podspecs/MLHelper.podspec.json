@@ -1,0 +1,22 @@
+{
+  "name": "MLHelper",
+  "version": "0.1.0",
+  "summary": "A short description of MLHelper.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Mario/MLHelper",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Mario": "li062212106@126.com"
+  },
+  "source": {
+    "git": "https://github.com/Mario/MLHelper.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MLHelper/Classes/**/*"
+}

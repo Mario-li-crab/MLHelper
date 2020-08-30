@@ -1,0 +1,16 @@
+PODS:
+  - MLHelper (0.1.0)
+
+DEPENDENCIES:
+  - MLHelper (from `../`)
+
+EXTERNAL SOURCES:
+  MLHelper:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MLHelper: 58c95dc6a9cea10ec500112634dc316b133eae88
+
+PODFILE CHECKSUM: bc27aa27dec425da6f299e5b78811d8958bab566
+
+COCOAPODS: 1.9.3

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MLHelper_Example' do
+  pod 'MLHelper', :path => '../'
+
+  target 'MLHelper_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
