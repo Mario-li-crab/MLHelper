@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DD5CA903C385258323CA92F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0DD5CA903C385258323CA92F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3675CC2C78D7827C5C399A8C /* Pods_MLHelper_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLHelper_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		51D3707BDED2B44400F2A593 /* Pods-MLHelper_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLHelper_Tests.release.xcconfig"; path = "Target Support Files/Pods-MLHelper_Tests/Pods-MLHelper_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* MLHelper_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MLHelper_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,10 +41,12 @@
 		607FACE51AFB9204008FA782 /* MLHelper_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MLHelper_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6AF0F430B43A5B16605A6B3F /* MLHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MLHelper.podspec; path = ../MLHelper.podspec; sourceTree = "<group>"; };
+		6AF0F430B43A5B16605A6B3F /* MLHelper.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MLHelper.podspec; path = ../MLHelper.podspec; sourceTree = "<group>"; };
 		AABB24CB17A014CA5467598E /* Pods-MLHelper_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLHelper_Example.debug.xcconfig"; path = "Target Support Files/Pods-MLHelper_Example/Pods-MLHelper_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		ACF6255E24FC0F0B000B1A23 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		ACF6256124FC0F0B000B1A23 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
 		B1E53A60CFEBCB41557FE25A /* Pods_MLHelper_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MLHelper_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4631CF1E2AB0CE6C68059F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		D4631CF1E2AB0CE6C68059F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D8391C537B0259652FAE8E7B /* Pods-MLHelper_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLHelper_Tests.debug.xcconfig"; path = "Target Support Files/Pods-MLHelper_Tests/Pods-MLHelper_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F3010351611DF749F39D2BF7 /* Pods-MLHelper_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MLHelper_Example.release.xcconfig"; path = "Target Support Files/Pods-MLHelper_Example/Pods-MLHelper_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -72,6 +74,7 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
+				ACF6255C24FC0F0B000B1A23 /* MLHelper */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for MLHelper */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -139,6 +142,40 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
+		ACF6255C24FC0F0B000B1A23 /* MLHelper */ = {
+			isa = PBXGroup;
+			children = (
+				ACF6256224FC0F2F000B1A23 /* Sources */,
+				ACF6255D24FC0F0B000B1A23 /* Classes */,
+				ACF6256024FC0F0B000B1A23 /* Assets */,
+			);
+			name = MLHelper;
+			path = ../MLHelper;
+			sourceTree = "<group>";
+		};
+		ACF6255D24FC0F0B000B1A23 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				ACF6255E24FC0F0B000B1A23 /* .gitkeep */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		ACF6256024FC0F0B000B1A23 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				ACF6256124FC0F0B000B1A23 /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		ACF6256224FC0F2F000B1A23 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
 		D5E1372192447EA9F759E395 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -147,7 +184,6 @@
 				D8391C537B0259652FAE8E7B /* Pods-MLHelper_Tests.debug.xcconfig */,
 				51D3707BDED2B44400F2A593 /* Pods-MLHelper_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +263,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
