@@ -1,5 +1,7 @@
 use_frameworks!
 
+platform :ios, '10.0'
+
 target 'MLHelper_Example' do
   pod 'MLHelper', :path => '../'
 

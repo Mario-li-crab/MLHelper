@@ -1,5 +1,7 @@
 PODS:
-  - MLHelper (0.1.0)
+  - MLHelper (0.1.0):
+    - MLHelper/Core (= 0.1.0)
+  - MLHelper/Core (0.1.0)
 
 DEPENDENCIES:
   - MLHelper (from `../`)
@@ -9,8 +11,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MLHelper: 58c95dc6a9cea10ec500112634dc316b133eae88
+  MLHelper: e141c9bf885c9a2192429fe4ffff5f9f2e7b858e
 
-PODFILE CHECKSUM: bc27aa27dec425da6f299e5b78811d8958bab566
+PODFILE CHECKSUM: 09afcf448db920c42ab1b6dff6e843fe984fc930
 
 COCOAPODS: 1.9.3

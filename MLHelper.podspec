@@ -21,22 +21,26 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/Mario/MLHelper'
+  s.homepage         = 'https://github.com/Mario-li-crab/MLHelper'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Mario' => 'li062212106@126.com' }
-  s.source           = { :git => 'https://github.com/Mario/MLHelper.git', :tag => s.version.to_s }
+  s.author           = { 'Mario-Li' => 'li062212106@126.com' }
+  s.source           = { :git => 'https://github.com/Mario-li-crab/MLHelper.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'MLHelper/Classes/**/*'
+  s.default_subspec = "Core"
+  s.swift_version = '5.0'
+  s.cocoapods_version = '>= 1.4.0'
   
-  # s.resource_bundles = {
-  #   'MLHelper' => ['MLHelper/Assets/*.png']
-  # }
+  # Platform
+  s.platform              = :ios
+  s.ios.deployment_target = '10.0'
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.source_files = 'Sources/Classes/**/*'
+  
+  # Subspec
+  s.subspec "Core" do |ss|
+    ss.source_files = "Sources/Classes/"
+    ss.framework  = "Foundation"
+  end
 end

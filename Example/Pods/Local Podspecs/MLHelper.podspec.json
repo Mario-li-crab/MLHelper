@@ -3,20 +3,30 @@
   "version": "0.1.0",
   "summary": "A short description of MLHelper.",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/Mario/MLHelper",
+  "homepage": "https://github.com/Mario-li-crab/MLHelper",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "Mario": "li062212106@126.com"
+    "Mario-Li": "li062212106@126.com"
   },
   "source": {
-    "git": "https://github.com/Mario/MLHelper.git",
+    "git": "https://github.com/Mario-li-crab/MLHelper.git",
     "tag": "0.1.0"
   },
+  "default_subspecs": "Core",
+  "swift_versions": "5.0",
+  "cocoapods_version": ">= 1.4.0",
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "MLHelper/Classes/**/*"
+  "source_files": "Sources/Classes/**/*",
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "Sources/Classes"
+    }
+  ],
+  "swift_version": "5.0"
 }
