@@ -36,7 +36,7 @@ TODO: Add long description of the pod here.
   s.platform              = :ios
   s.ios.deployment_target = '10.0'
 
-  s.source_files = 'Sources/Classes/**/*'
+  s.source_files = 'Sources/Classes/**/*', 'Sources/Foundation+Ex/**/*'
   
   # Subspec
   s.subspec "Core" do |ss|
